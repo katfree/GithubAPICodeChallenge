@@ -14,9 +14,9 @@ namespace QuaverCodeChallenge.Controllers
             _githubService = githubService;
         }
 
-        public IActionResult CodingChallenge()
+        public IActionResult GitHubTopRepos()
         {
-            return View("~/Views/GitHubTopRepos.cshtml");
+            return View();
         }
 
         [HttpGet]

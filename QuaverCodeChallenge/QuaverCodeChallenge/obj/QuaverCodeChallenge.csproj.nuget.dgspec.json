@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jerad Hobgood\\Desktop\\QuaverCodingChallenge\\New-Hire-Coding-Challenge\\QuaverCodeChallenge\\QuaverCodeChallenge\\QuaverCodeChallenge.csproj": {}
+    "C:\\Users\\user\\workspace\\Code-Test\\QuaverCodeChallenge\\QuaverCodeChallenge\\QuaverCodeChallenge.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jerad Hobgood\\Desktop\\QuaverCodingChallenge\\New-Hire-Coding-Challenge\\QuaverCodeChallenge\\QuaverCodeChallenge\\QuaverCodeChallenge.csproj": {
+    "C:\\Users\\user\\workspace\\Code-Test\\QuaverCodeChallenge\\QuaverCodeChallenge\\QuaverCodeChallenge.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jerad Hobgood\\Desktop\\QuaverCodingChallenge\\New-Hire-Coding-Challenge\\QuaverCodeChallenge\\QuaverCodeChallenge\\QuaverCodeChallenge.csproj",
+        "projectUniqueName": "C:\\Users\\user\\workspace\\Code-Test\\QuaverCodeChallenge\\QuaverCodeChallenge\\QuaverCodeChallenge.csproj",
         "projectName": "QuaverCodeChallenge",
-        "projectPath": "C:\\Users\\Jerad Hobgood\\Desktop\\QuaverCodingChallenge\\New-Hire-Coding-Challenge\\QuaverCodeChallenge\\QuaverCodeChallenge\\QuaverCodeChallenge.csproj",
-        "packagesPath": "C:\\Users\\Jerad Hobgood\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jerad Hobgood\\Desktop\\QuaverCodingChallenge\\New-Hire-Coding-Challenge\\QuaverCodeChallenge\\QuaverCodeChallenge\\obj\\",
+        "projectPath": "C:\\Users\\user\\workspace\\Code-Test\\QuaverCodeChallenge\\QuaverCodeChallenge\\QuaverCodeChallenge.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\workspace\\Code-Test\\QuaverCodeChallenge\\QuaverCodeChallenge\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jerad Hobgood\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -53,6 +53,7 @@
               "version": "[2.1.2, )"
             },
             "Microsoft.NETCore.App": {
+              "suppressParent": "All",
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true

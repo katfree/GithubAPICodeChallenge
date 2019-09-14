@@ -31,7 +31,9 @@ namespace QuaverCodeChallenge.Servcies
             JObject json = JObject.Parse(content);
 
             // Loop though items looking for URL's and add to a list
-            var jsonItemList = json["item"];
+            // was was var jsonItemList = json["items"];
+
+            var jsonItemList = json.Last.First;
             foreach (var i in jsonItemList)
             {
                 repoNames.Add((i["owner"]["url"]).ToString().ToUpper());
