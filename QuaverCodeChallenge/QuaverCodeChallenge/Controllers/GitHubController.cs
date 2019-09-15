@@ -5,7 +5,9 @@ using QuaverCodeChallenge.Servcies;
 
 namespace QuaverCodeChallenge.Controllers
 {
-    
+    //[Route("")]
+    //[Route("GitHub/GitHubTopRepos")]
+    //[Route("[controller]/[action]")]
     public class GitHubController : Controller
     {
         private readonly GitHubService _githubService;
