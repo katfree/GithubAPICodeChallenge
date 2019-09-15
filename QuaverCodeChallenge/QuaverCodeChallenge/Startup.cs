@@ -30,6 +30,15 @@ namespace QuaverCodeChallenge
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddScoped<GitHubService>();
+
+            services.AddMvc().AddRazorPagesOptions(options =>
+            {
+                options.Conventions.AddPageRoute("/GitHub", "/");
+                options.Conventions.AddPageRoute("/GitHub", "home");
+                options.Conventions.AddPageRoute("/GitHub", "GitHubTopRepos");
+                options.Conventions.AddAreaPageRoute("GitHub", "/GitHubTopRepos", "/GitHub/GitHubTopRepos");
+
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -52,9 +61,14 @@ namespace QuaverCodeChallenge
             app.UseMvc();
             app.UseMvc(routes =>
             {
-                routes.MapRoute(
-                    name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                //routes.MapRoute(
+                  //  name: "default",
+                   // template: "{controller=GitHub}/{action=GitHubTopRepos}/{id?}");
+
+                routes.MapRoute("GitHub", "GitHub/{*GitHubTopRepos}",
+                defaults: new { controller = "GitHubTopRepos", action = "GitHubTopRepos" });
+
+               // routes.MapRoute("default", "{controller=GitHubTopRepos}/{action=GitHubTopRepos}/{id?}");
             });
         }
     }

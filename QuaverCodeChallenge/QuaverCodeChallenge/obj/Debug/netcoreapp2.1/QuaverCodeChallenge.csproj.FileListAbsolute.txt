@@ -84,7 +84,6 @@ C:\Users\user\workspace\Code-Test\QuaverCodeChallenge\QuaverCodeChallenge\obj\De
 C:\Users\user\workspace\Code-Test\QuaverCodeChallenge\QuaverCodeChallenge\obj\Debug\netcoreapp2.1\QuaverCodeChallenge.RazorCoreGenerate.cache
 C:\Users\user\workspace\Code-Test\QuaverCodeChallenge\QuaverCodeChallenge\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
 C:\Users\user\workspace\Code-Test\QuaverCodeChallenge\QuaverCodeChallenge\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
-C:\Users\user\workspace\Code-Test\QuaverCodeChallenge\QuaverCodeChallenge\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
 C:\Users\user\workspace\Code-Test\QuaverCodeChallenge\QuaverCodeChallenge\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
 C:\Users\user\workspace\Code-Test\QuaverCodeChallenge\QuaverCodeChallenge\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Confirm.g.cshtml.cs
 C:\Users\user\workspace\Code-Test\QuaverCodeChallenge\QuaverCodeChallenge\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs

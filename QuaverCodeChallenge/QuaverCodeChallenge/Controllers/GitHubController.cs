@@ -5,7 +5,7 @@ using QuaverCodeChallenge.Servcies;
 
 namespace QuaverCodeChallenge.Controllers
 {
-    [Route("[controller]/[action]")]
+    
     public class GitHubController : Controller
     {
         private readonly GitHubService _githubService;
@@ -14,11 +14,14 @@ namespace QuaverCodeChallenge.Controllers
             _githubService = githubService;
         }
 
+        [Route("")]
+        [Route("GitHub/GitHubTopRepos")]
         public IActionResult GitHubTopRepos()
         {
             return View();
         }
 
+        [Route("[controller]/[action]")]
         [HttpGet]
         public IActionResult StartPullingFromGithubAPI()
         {

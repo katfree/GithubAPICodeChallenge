@@ -54,10 +54,10 @@ namespace QuaverCodeChallenge.Servcies
         private void WriteToFile(IList<string> currentList, IList<string> itemsToWrite)
         {
             using (StreamWriter writer = new StreamWriter(fullPath, true))
-            {
+            {   
                 foreach (var i in itemsToWrite)
-                {
-                    if (!currentList.Contains(i))
+                { 
+                    if (!currentList.Contains(encryption.EnryptString(i).ToLower()))
                     {
                         writer.WriteLine(encryption.EnryptString(i));
                     }
